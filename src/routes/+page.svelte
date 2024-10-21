@@ -8,7 +8,7 @@
 
 	let videoElement: HTMLVideoElement;
 	// const videoSrc = 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
-	const videoSrc = 'http://192.168.0.254:8080/stream?topic=/image';
+	const videoSrc = 'https://192.168.0.254/stream?topic=/image';
 	onMount(() => {
 		if (Hls.isSupported()) {
 			const hls = new Hls();
