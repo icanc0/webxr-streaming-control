@@ -29,7 +29,7 @@
 	// }
 </script>
 
-	<Canvas>
+	<Canvas size={{width: 400, height: 400}}>
 		<Scene />
 	</Canvas>
 
