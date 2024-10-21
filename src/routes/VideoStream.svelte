@@ -44,6 +44,7 @@
 		<Container flexDirection="column">
 
 			<Video src={$stream} autoplay />
+			<Video src="https://192.168.0.254/stream?topic=/image&type=mjpeg" autoplay />
 			<Text text="sdjfijsofdjifsodfjs"></Text>
 			<Image src="https://192.168.0.254/stream?topic=/image&type=mjpeg" height={100} />
 

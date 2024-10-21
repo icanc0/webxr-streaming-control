@@ -35,6 +35,10 @@
 
 <ARButton />
 
-<video bind:this={videoElement} width="320" height="240" controls autoplay muted>
-	Your browser does not support HLS video streaming.
+<video src="https://192.168.0.254/stream?topic=/image&type=mjpeg" controls autoplay muted>
+	Your browser does not support the <code>video</code> element.
 </video>
+
+<!--<video bind:this={videoElement} width="320" height="240" controls autoplay muted>-->
+<!--	Your browser does not support HLS video streaming.-->
+<!--</video>-->
