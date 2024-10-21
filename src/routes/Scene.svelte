@@ -7,7 +7,7 @@
 
 <VideoStream />
 
-<!--<XR />-->
+<XR />
 
 <Controller left />
 <Controller right />
