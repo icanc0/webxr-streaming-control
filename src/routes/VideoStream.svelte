@@ -5,7 +5,7 @@
 	import { DEG2RAD } from 'three/src/math/MathUtils.js'
 	import { onMount } from 'svelte';
 	import Hls from 'hls.js';
-	import { Root, Container, Text, Video } from 'threlte-uikit'
+	import { Root, Container, Text, Video, Image } from 'threlte-uikit'
 	import { stream } from './store';
 
 	const getRandomColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`
@@ -45,6 +45,7 @@
 
 			<Video src={$stream} autoplay />
 			<Text text="sdjfijsofdjifsodfjs"></Text>
+			<Image src="https://192.168.0.254/stream?topic=/image&type=mjpeg" height={100} />
 
 		</Container>
 	</Root>
